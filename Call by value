@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+    int a;
+    printf("Enter no : ");
+    scanf("%d",&a);
+    printf("Given number is : %d\n",a);
+    inc(a);
+    printf("After incrementing : %d\n",a);
+}
+void inc(int a)
+{
+    a=a+1;
+    printf("Increment is : %d\n",a);
+}
+
+**********************************************
+
+
+Enter no : 5
+Given number is : 5
+Increment is : 6
+After incrementing : 2 
