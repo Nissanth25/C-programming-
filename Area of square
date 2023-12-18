@@ -1,3 +1,5 @@
+// without argument without return type
+
 #include<stdio.h>
 
 void area()
