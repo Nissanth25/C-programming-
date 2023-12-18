@@ -16,7 +16,6 @@ void inc(int a)
 
 **********************************************
 
-
 Enter no : 5
 Given number is : 5
 Increment is : 6
