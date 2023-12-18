@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+void area()
+{
+  int a;
+  printf("Enter the sides : ");
+  scanf("%d",&a);
+  printf("area of square is %d",a*a);
+ }
+int main()
+{
+     area();
+}
+
+*********************************************
+
+Enter the sides : 7
+area of square is 49
