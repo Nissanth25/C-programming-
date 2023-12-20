@@ -1,0 +1,26 @@
+#include <stdio.h>
+int factorial (int);
+void main()
+{
+    int fac,a;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    fac=factorial(a);
+    printf("The factorial is %d",fac);
+}
+int factorial (int a)
+{
+    if(a<=2)
+    {
+        return a;
+    }
+    else
+    {
+    return (a*factorial(a-1));
+}
+}
+
+************************************************
+
+Enter a number:5
+The factorial is 120
